@@ -12,7 +12,8 @@ Example :
 Input : [1 2 3 1 1]
 Output : 1 
 1 occurs 3 times which is more than 5/3 times. 
-
+'''
+'''
 Time Complexity : O(n)
 Space Complexity : O(k) (k = max(A))
 '''
@@ -28,3 +29,8 @@ def repeatedNumber(self, A):
             if(count[i]>(n/3)):
                 return(i)
         return(-1)
+'''
+Time Complexity : O(n*log(n))
+Space Complexity : O(1) (k = max(A))
+'''
+
